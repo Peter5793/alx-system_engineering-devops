@@ -1,1 +1,2 @@
-The script is used to show the location in the directory
+#!/bin/bash
+pwd
