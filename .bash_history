@@ -354,3 +354,136 @@ git remote
 git push -u origin master
 clear
 uname
+ls -lh
+cd 0x01-emacs/
+ls -lh
+rm *
+ls -lh
+git init
+git push origin master
+git pull
+ls -lh
+git add -A
+git commit -m "Initial commit"
+git status
+git push
+ls -l
+emacs README.md 
+git commit -m "initial commit"
+git add README.md 
+git commit -m "initial commit"
+git push -u origin master
+ls 
+cd ..
+pwd
+ls 
+rm dir
+rmdir
+rmdir*
+rmdir 0x00-shell_basics/
+git add 0x01-emacs/
+git add --all
+git push 
+git commit -m "inital commit"
+git pull
+git push -u origin master
+git pull
+git commit -a
+git push -u orign master
+git status
+git commit -a
+git add -A
+git status
+cd 0x00-shell_basics/
+git add -A
+git status
+cd ..
+git status
+git add 0x00-shell_basics/
+git status
+clear
+ls 
+rm/path/to/dir/*
+rm 0-current_working_directory
+ls 
+rm -a
+rm *
+ls -l
+rmdir 0x01-emacs 0x00-shell_basics/
+cd 0x01-emacs/
+ls 
+ls -l
+rm*
+rm *
+ls -l
+rmdir 0x00-vagrant/
+cd 0x00-vagrant/
+ls -l
+rm *
+cd ..
+ls -l
+rmdir 0x00-vagrant/
+ls -l
+cd ..
+ls -h
+rm 0x00-vagrant/
+rmdir 0x00-vagrant/
+cd 0x00-vagrant/
+ls -l
+rm *
+cd ..
+rmdir 0x00-vagrant/
+ls -l
+cd 0x01-emacs/
+ls -l
+cd ..
+rmdir 0x01-emacs/
+cd 0x01-emacs/
+ls -l
+rm *
+rm 
+ls -a
+rm -a
+rm --a
+clear
+ls -l
+cd
+pwd
+ls 
+cd 0x00-shell_basics/
+ls
+rm *
+ls 
+cd ..
+rmdir 0x00-shell_basics/
+rm -r 0x00-shell_basics/
+sudo apt-get install vim
+vim
+vim 
+ls
+rm txt.txt
+ls
+cd 0x00-shell_basics/
+ls
+ls 
+ls -git pull
+git pull
+ls -l
+rm git remote set-url https://github.com/Peter5793/alx-system_engineering-devops.git
+git init
+git remote set-url https://github.com/Peter5793/alx-system_engineering-devops.git
+git remote -v
+git remote
+git push 
+git push -u origin master
+git remote
+git remote set-url https://github.com/Peter5793/alx-system_engineering-devops.git
+git remote set-url origin https://github.com/Peter5793/alx-system_engineering-devops.git
+ls 
+ls -l
+git remote set-url origin https://github.com/Peter5793/alx-system_engineering-devops.git
+mkdir 0x00-shell_basics
+ls
+git pull
+git init
+git remote -v
