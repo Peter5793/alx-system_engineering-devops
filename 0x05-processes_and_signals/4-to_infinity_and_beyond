@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#print infinte loop indefinitely
+i=1
+while ((i))
+do 
+	echo "To infinity and beyond"
+	sleep 1
+done
