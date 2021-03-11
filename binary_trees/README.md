@@ -5,9 +5,9 @@
 * Definition of a Binary Tree
 * Difference between a  binary tree and binary search tree
 * Possible  gain in terms of time complexity compared to linked lists
-* Depthm the height, the size of binary tree
+* Depth the height, the size of binary tree
 * Different traversal methods to go through a binary tree
-* Definaition of a complete full perfect and balanced binary tree
+* Defination of a complete full perfect and balanced binary tree
 
 
 ## Data Structures
