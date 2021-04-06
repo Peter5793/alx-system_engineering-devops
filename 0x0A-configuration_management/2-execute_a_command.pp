@@ -1,5 +1,5 @@
 # Execute command
 exec { "killmenow":
-command => 'pkill --signal SIGTERM killmenow',
+command => 'pkill -f killmenow',
 path    => 'usr/bin',
 }
