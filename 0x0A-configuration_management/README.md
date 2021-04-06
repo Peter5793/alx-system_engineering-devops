@@ -5,7 +5,7 @@
 $ apt-get install -y ruby
 $ gem install puppet-lint -v 2.1.1
 ```
-### Task
+### 1. Task
 #### Create a file
 * File path is ```/tmp/holberton```
 * File permission is 0744 
