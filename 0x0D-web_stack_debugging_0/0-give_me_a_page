@@ -1,1 +1,2 @@
 #!/usr/bin/env bash
+# get Apache to run on the container and to return a page with Hello Holberton
