@@ -1,12 +1,11 @@
 # Web Stack Debugging
 
 ## Task
-#### Give me a page
+## Give me a page
+### Description
 
-##### Description
 Get a [Apache](https://alx-intranet.hbtn.io/rltoken/HVGgLL51qmuulmw802M-Jg) to run on the container and to return a page containing Hello Holberton when querying th
-e root of it
-----------------------------------------------------------------------------------
+e root of it.
 
 Example
 
