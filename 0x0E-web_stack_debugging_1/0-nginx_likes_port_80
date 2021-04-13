@@ -1,0 +1,3 @@
+#!/usr/bin/ env bash
+# bash script to know what is keeping Nginx from port 80
+
