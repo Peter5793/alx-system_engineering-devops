@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# configure nginx
+# kill off all running nginx processes if any
+# restart nginx
+
+ufw allow 'Nginx HTTP'
+rm /etc/nginx/sites-enabled/default
+ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+p-kill -9 nginx
+service nginx restart
