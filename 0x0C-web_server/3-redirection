@@ -6,4 +6,4 @@ sudo apt-get -y install nginx
 echo "Holberton School" > /var/www/html/inddex.nginx-debian.html
 variable="rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;"
 sed -i "19i $variable" /etc/nginx/sites-available/default
-service nginx restart
+sudo service nginx restart
