@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # to configure web-02 to be identical to web-01
-apt-get update
-apt-get -y install nginx
+sudo apt-get -y update
+sudo apt-get -y install nginx
 http_header="add_header X-Served-By $HOSTNAME;"
 sed -i "/sendfile on;/a $http_header" /etc/nginx/nginx.conf
-service nginx restart
+sudo service nginx restart
