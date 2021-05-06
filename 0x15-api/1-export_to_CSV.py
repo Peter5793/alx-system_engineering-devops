@@ -3,8 +3,8 @@
 Python script with REST API, for a given employee ID
 returns Information about his/her TODO list
 """
-import requests
 import csv
+import requests
 from sys import argv
 
 
