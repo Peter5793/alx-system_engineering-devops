@@ -31,7 +31,7 @@ if __name__ == '__main__':
             completed_tasks.append(task)
 
     with open("{}.csv".format(user_id), 'w') as file:
-        rules = csv.writer(file, delimiter=',', quoting=csv.QUOTE_ALL)
+        rules = csv.writer(file, quoting=csv.QUOTE_ALL)
         for task in task_list:
             rules.writerow([user_id, n_user.get('username'),
                            task.get('completed'), task.get('title')])
