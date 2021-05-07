@@ -19,13 +19,13 @@ if __name__ == '__main__':
 
     for user in users:
         u_id = user.get('id')
-        d_user[u_id] =[]
+        d_user[u_id] = []
         d_username[u_id] = user.get('username')
 
     for task in todos:
-        task_dict ={}
+        task_dict = {}
         u_id = task.get('userId')
-        task_dict['task'] =task.get('title')
+        task_dict['task'] = task.get('title')
         task_dict['completed'] = task.get('completed')
         task_dict['username'] = d_username.get(u_id)
         d_user[u_id].append(task_dict)
