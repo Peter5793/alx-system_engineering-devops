@@ -21,6 +21,6 @@ To avoid a spiral, the team meeds to learn from the past to better the future. W
 ## Example
 
 ### Author
-[Peter Lugalia](masaba.peter68@gmail.com)
+Peter Lugalia [email](masaba.peter68@gmail.com)
 
 
