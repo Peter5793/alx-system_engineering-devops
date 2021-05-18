@@ -5,11 +5,12 @@ queries the Reddit API and returns the number of subscribers
 import json
 import requests
 
+
 def number_of_subscribers(subreddit):
     """get request to obtain subscribers"""
     headers = {'User-Agent': 'linux:com.myapp:v.1'}
     response = requests.get('https://www.reddit.com/r/{}/about'.
-                           format(subreddit), headers=headers)
+                            format(subreddit), headers=headers)
 
     if response.status_code == 404:
                 return 0
