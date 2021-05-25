@@ -1,0 +1,27 @@
+{
+	"id": 0,
+	"name": "CPU load is High on Ubuntu 35.227.78.73",
+	"type": "metric alert",
+	"query": "avg(last_5m):avg:system.io.w_await{name:34-web-01} > 50",
+	"message": " @p.lugalia@launchpad.alx.app the CPU load is high",
+	"tags": [],
+	"options": {
+		"notify_audit": true,
+		"locked": true,
+		"timeout_h": 1,
+		"new_host_delay": 300,
+		"require_full_window": true,
+		"notify_no_data": true,
+		"renotify_interval": 10,
+		"escalation_message": "Situation has not yet been resolved\n",
+		"no_data_timeframe": 10,
+		"include_tags": true,
+		"thresholds": {
+			"critical": 50,
+			"warning": 45,
+			"critical_recovery": 15,
+			"warning_recovery": 5
+		}
+	},
+	"priority": 2
+}
